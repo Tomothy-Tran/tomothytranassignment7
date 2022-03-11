@@ -7,42 +7,60 @@
 
 /* Global styles 
 ------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background: whitesmoke;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0;
   font-family: "Merriweather", sans-serif;
 }
 
-h1,h2,h3 {
+h1, h2, h3 {
   font-family: "Roboto", serif;
   color: lightgray;
 }
 
 h1 {
   font: 3.2em serif;
+  margin: 0;
 }
 
 h2 {
   font: 2.0em serif;
   margin-top: 0;
+  margin: 0;
 }
 
 h3 {
   font-size: 1.2em serif;
 }
 
-p,li,a,
+p, li, a,
 .contact-info {
   font-family: "Merriweather", sans-serif;
   color: lightgray;
 }
 
-.content-wrap{
-  max-width: 950px; 
+
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+.content-wrap {
+  max-width: 950px;
   padding: 50px;
   margin: 0 auto;
 }
+
 /* Header & Footer 
 ------------------------------------*/
 header {
@@ -51,12 +69,30 @@ header {
 
 footer {
   background: #64485c;
+  text-align: center;
 }
 
-.profilepicture {
-  height: 150px;
-  width: 150px;
-  /* margin-top: 1em; */
+.profileimg {
+  /* width: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px; */
+  border-radius: 50%;
+}
+
+/* Columns
+------------------------------------*/
+.column-narrow{
+  width: 30%; 
+  float: left; 
+  padding-right: 3%; 
+  min-height: 175px;
+}
+
+.column-wide{
+  width: 70%;
+  float: left; 
+  min-height: 225px
 }
 
 /* Work Experience
