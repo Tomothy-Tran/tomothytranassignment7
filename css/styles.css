@@ -59,6 +59,7 @@ p, li, a,
   max-width: 950px;
   padding: 50px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 /* Header & Footer 
