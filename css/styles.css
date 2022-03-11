@@ -1,0 +1,71 @@
+/* Color Palette
+# - whitesmoke
+# - #2e1114
+# - #64485c
+# - #501B1D
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+  background: whitesmoke;
+  margin-right: auto;
+	margin-left: auto;
+  font-family: "Merriweather", sans-serif;
+}
+
+h1,
+h2,
+h3
+{
+  font-family: "Roboto", serif;
+  color: lightgray;
+}
+
+h1{
+  font: 3.2em serif;
+}
+
+h2{
+  font: 2.0em;
+}
+
+h3{
+  font-size: 1.2em;
+}
+
+p,
+li,
+a,
+.contact-info {
+  font-family: "Merriweather", sans-serif;
+  color: lightgray;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  background: #2e1114;
+}
+
+footer {
+  background: #64485c;
+}
+
+.profilepicture {
+  height: 150px;
+  width: 150px;
+  margin-top: 1em;
+}
+
+/* Work Experience
+------------------------------------*/
+.workexperience {
+  background: #501b1d;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background: #501b1d;
+}
